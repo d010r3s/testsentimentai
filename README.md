@@ -1,5 +1,6 @@
 # testsentimentai
 test
+
 настройка виртуального окружения:
 ```
 cd \Users\username\Downloads\testsentimentai-main\testsentimentai-main
