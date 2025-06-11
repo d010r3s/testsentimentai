@@ -1,5 +1,11 @@
 # testsentimentai
 test
+настройка виртуального окружения:
+```
+cd \Users\username\Downloads\testsentimentai-main\testsentimentai-main
+.\venv\Scripts\activate
+```
+в первом окне powershell:
 ```
 pip install -r requirements.txt
 python init_db.py
@@ -9,7 +15,7 @@ python build_case_kb.py
 python analyse.py
 python recommender.py
 ```
-в отдельном окне:
+во втором окне powershell:
 ```
 streamlit run dashboard.py
 ```
